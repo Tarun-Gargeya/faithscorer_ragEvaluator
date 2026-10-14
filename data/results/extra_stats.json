@@ -1,0 +1,192 @@
+{
+ "noise_effect_mean_score": {
+  "nli": {
+   "clean": 0.4388258791216742,
+   "noisy": 0.14376300677814202
+  },
+  "alignscore": {
+   "clean": 0.7193413231752782,
+   "noisy": 0.5933254811421244
+  },
+  "minicheck": {
+   "clean": 0.7716184414943382,
+   "noisy": 0.7581131904004874
+  },
+  "faithscorer_sent": {
+   "clean": 0.9769782178807128,
+   "noisy": 0.9612141127051737
+  }
+ },
+ "cost_accuracy_points": [
+  {
+   "system": "NLI (DeBERTa-v3-base)",
+   "ms": 14.364654319932473,
+   "balanced_acc": 0.6338682432432432
+  },
+  {
+   "system": "AlignScore-base",
+   "ms": 47.4210997433557,
+   "balanced_acc": 0.7272804054054054
+  },
+  {
+   "system": "MiniCheck (Flan-T5-L)",
+   "ms": 103.2820203593196,
+   "balanced_acc": 0.6434121621621621
+  },
+  {
+   "system": "FaithScorer, whole answer",
+   "ms": 26.04768494438058,
+   "balanced_acc": 0.617652027027027
+  },
+  {
+   "system": "FaithScorer, sentence-min",
+   "ms": 48.38616911114918,
+   "balanced_acc": 0.7476351351351351
+  },
+  {
+   "system": "gpt-oss-120b judge",
+   "ms": 1180.0663244987177,
+   "balanced_acc": 0.7972043325526932
+  }
+ ],
+ "training_curve": [
+  {
+   "epoch": 0.3044,
+   "balanced_acc": 0.9575,
+   "auroc": 0.9811
+  },
+  {
+   "epoch": 0.6088,
+   "balanced_acc": 0.9611,
+   "auroc": 0.9854
+  },
+  {
+   "epoch": 0.9132,
+   "balanced_acc": 0.9604,
+   "auroc": 0.9873
+  },
+  {
+   "epoch": 1.218,
+   "balanced_acc": 0.9612,
+   "auroc": 0.9887
+  },
+  {
+   "epoch": 1.522,
+   "balanced_acc": 0.9647,
+   "auroc": 0.9872
+  },
+  {
+   "epoch": 1.826,
+   "balanced_acc": 0.9656,
+   "auroc": 0.9878
+  },
+  {
+   "epoch": 2.0,
+   "balanced_acc": 0.9656,
+   "auroc": 0.9876
+  }
+ ],
+ "augment_train": {
+  "questions": 2500,
+  "passed_validation": 1621,
+  "failure_reasons": {
+   "wrong_answer overlaps gold/context": 648,
+   "missing key": 97,
+   "grounded_answer lacks gold answer": 79,
+   "grounded_answer has meta-commentary": 51,
+   "error: Expecting ',' delimiter: line 11 column 8 (char 506)": 1,
+   "error: Expecting ',' delimiter: line 24 column 2 (char 262)": 1,
+   "unsupported_extra has meta-commentary": 1,
+   "error: Expecting ',' delimiter: line 4 column 136 (char 415)": 1
+  },
+  "nli_grounded_pass": 1515,
+  "nli_supported_pass": 1595,
+  "nli_unsupported_pass": 1597
+ },
+ "augment_test": {
+  "questions": 600,
+  "passed_validation": 397,
+  "failure_reasons": {
+   "wrong_answer overlaps gold/context": 153,
+   "missing key": 21,
+   "grounded_answer lacks gold answer": 18,
+   "grounded_answer has meta-commentary": 10,
+   "error: Expecting property name enclosed in double quotes: line 4 column 83 (char 240)": 1
+  },
+  "nli_grounded_pass": 369,
+  "nli_supported_pass": 390,
+  "nli_unsupported_pass": 389
+ },
+ "ragtruth_breakdowns": {
+  "alignscore": {
+   "threshold_from_ragtruth_dev": 0.7433177500963211,
+   "confusion_matrix_[[TN,FP],[FN,TP]]_positive=faithful": [
+    [
+     143,
+     17
+    ],
+    [
+     325,
+     415
+    ]
+   ],
+   "balanced_acc_by_generator": {
+    "gpt-3.5-turbo-0613": 0.7724137931034483,
+    "gpt-4-0613": 0.4463087248322148,
+    "llama-2-13b-chat": 0.6483918128654971,
+    "llama-2-70b-chat": 0.6341614906832298,
+    "llama-2-7b-chat": 0.6191130298273155,
+    "mistral-7B-instruct": 0.6560043372187585
+   },
+   "hallucination_recall_by_type": {
+    "Evident Baseless Info": {
+     "n": 109,
+     "caught": 0.9174311926605505
+    },
+    "Evident Conflict": {
+     "n": 26,
+     "caught": 0.7692307692307693
+    },
+    "Subtle Baseless Info": {
+     "n": 40,
+     "caught": 0.95
+    }
+   }
+  },
+  "faithscorer_sent": {
+   "threshold_from_ragtruth_dev": 0.00032043716055341087,
+   "confusion_matrix_[[TN,FP],[FN,TP]]_positive=faithful": [
+    [
+     124,
+     36
+    ],
+    [
+     207,
+     533
+    ]
+   ],
+   "balanced_acc_by_generator": {
+    "gpt-3.5-turbo-0613": 0.7413793103448276,
+    "gpt-4-0613": 0.4463087248322148,
+    "llama-2-13b-chat": 0.6513157894736843,
+    "llama-2-70b-chat": 0.6440993788819875,
+    "llama-2-7b-chat": 0.678767660910518,
+    "mistral-7B-instruct": 0.801707779886148
+   },
+   "hallucination_recall_by_type": {
+    "Evident Baseless Info": {
+     "n": 109,
+     "caught": 0.8532110091743119
+    },
+    "Evident Conflict": {
+     "n": 26,
+     "caught": 0.46153846153846156
+    },
+    "Subtle Baseless Info": {
+     "n": 40,
+     "caught": 0.825
+    }
+   }
+  }
+ }
+}

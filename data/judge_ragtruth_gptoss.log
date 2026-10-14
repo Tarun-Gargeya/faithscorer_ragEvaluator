@@ -1,0 +1,36 @@
+gptoss120b on ragtruth_qa: 0 done, 900 to go
+  [25/900]
+  [50/900]
+  [75/900]
+  [100/900]
+  [125/900]
+  [150/900]
+  [175/900]
+  [200/900]
+  [225/900]
+  [250/900]
+  [275/900]
+  error on 282 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 15s
+  error on 282 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 30s
+  error on 282 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 60s
+  error on 283 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 15s
+  error on 283 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 30s
+  error on 283 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 60s
+  error on 283 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 120s
+  error on 284 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 15s
+  error on 284 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 30s
+  error on 284 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 60s
+  error on 284 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 120s
+  error on 285 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 15s
+  error on 285 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 30s
+  error on 285 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 60s
+  error on 285 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 120s
+  error on 285 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr); retrying in 240s
+  giving up for now; re-run later to resume
+gptoss120b on ragtruth_qa: 285 done, 615 to go
+  error on 285 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr8jcexzvbcnsbr1jgtyc` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199588, Requested 1072. Please try again in 4m45.12s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceede); retrying in 15s
+  error on 285 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr8jcexzvbcnsbr1jgtyc` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199553, Requested 765. Please try again in 2m17.376s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceede); retrying in 30s
+  error on 285 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr8jcexzvbcnsbr1jgtyc` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199483, Requested 765. Please try again in 1m47.136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceede); retrying in 60s
+  error on 285 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr8jcexzvbcnsbr1jgtyc` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199344, Requested 1115. Please try again in 3m18.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceed); retrying in 120s
+  error on 285 (RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m45vr8jcexzvbcnsbr1jgtyc` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199066, Requested 1096. Please try again in 1m9.984s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceede); retrying in 240s
+  giving up for now; re-run later to resume

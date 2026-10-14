@@ -1,0 +1,122 @@
+gptoss120b on ragtruth_qa: 285 done, 315 to go
+  rate-limited on 286; waiting 136s
+  rate-limited on 287; waiting 216s
+  rate-limited on 287; waiting 79s
+  rate-limited on 288; waiting 136s
+  rate-limited on 288; waiting 146s
+  rate-limited on 289; waiting 212s
+  rate-limited on 289; waiting 84s
+  [5/315]
+  rate-limited on 290; waiting 202s
+  rate-limited on 291; waiting 314s
+  rate-limited on 291; waiting 111s
+  rate-limited on 292; waiting 270s
+  rate-limited on 292; waiting 74s
+  rate-limited on 293; waiting 223s
+  rate-limited on 293; waiting 97s
+  rate-limited on 294; waiting 337s
+  [10/315]
+  rate-limited on 295; waiting 279s
+  rate-limited on 296; waiting 179s
+  rate-limited on 297; waiting 505s
+  rate-limited on 298; waiting 217s
+  rate-limited on 298; waiting 111s
+  rate-limited on 299; waiting 321s
+  [15/315]
+  rate-limited on 300; waiting 204s
+  rate-limited on 301; waiting 74s
+  rate-limited on 302; waiting 383s
+  rate-limited on 303; waiting 265s
+  rate-limited on 304; waiting 122s
+  [20/315]
+  rate-limited on 305; waiting 192s
+  rate-limited on 306; waiting 349s
+  rate-limited on 307; waiting 80s
+  rate-limited on 307; waiting 134s
+  rate-limited on 308; waiting 89s
+  rate-limited on 309; waiting 377s
+  [25/315]
+  rate-limited on 310; waiting 251s
+  rate-limited on 311; waiting 187s
+  rate-limited on 312; waiting 387s
+  rate-limited on 313; waiting 346s
+  rate-limited on 314; waiting 323s
+  [30/315]
+  rate-limited on 315; waiting 388s
+  rate-limited on 315; waiting 93s
+  rate-limited on 316; waiting 270s
+  rate-limited on 317; waiting 353s
+  rate-limited on 318; waiting 94s
+  rate-limited on 318; waiting 97s
+  rate-limited on 319; waiting 124s
+gptoss120b on ragtruth_qa: 315 done, 285 to go
+  [5/285]
+  [10/285]
+  [15/285]
+  [20/285]
+  [25/285]
+  [30/285]
+  [35/285]
+  [40/285]
+  [45/285]
+  [50/285]
+  [55/285]
+  [60/285]
+  [65/285]
+  [70/285]
+  [75/285]
+  [80/285]
+  [85/285]
+  [90/285]
+  [95/285]
+  [100/285]
+  [105/285]
+  [110/285]
+  [115/285]
+  [120/285]
+  [125/285]
+  [130/285]
+  [135/285]
+  [140/285]
+  [145/285]
+  [150/285]
+  [155/285]
+  [160/285]
+  [165/285]
+  [170/285]
+  [175/285]
+  [180/285]
+  [185/285]
+  [190/285]
+  [195/285]
+  [200/285]
+  [205/285]
+  [210/285]
+  [215/285]
+  [220/285]
+  [225/285]
+  [230/285]
+  [235/285]
+  [240/285]
+  [245/285]
+  [250/285]
+  [255/285]
+  [260/285]
+  [265/285]
+  [270/285]
+  [275/285]
+  [280/285]
+  [285/285]
+gptoss120b on test: 0 done, 200 to go
+  [5/200]
+  [10/200]
+  [15/200]
+  [20/200]
+  [25/200]
+  [30/200]
+  rate-limited on 557; waiting 281s
+  rate-limited on 561; waiting 366s
+  [35/200]
+  rate-limited on 585; waiting 383s
+  rate-limited on 588; waiting 185s
+  rate-limited on 591; waiting 115s

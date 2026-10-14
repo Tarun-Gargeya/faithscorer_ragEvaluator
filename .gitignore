@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+models/
+data/raw/
+*_ckpt/
+# documents kept out of the repo (report source is docs/REPORT.md)
+*.docx
+*.pdf
+~$*
+# runtime logs not needed to reproduce results
+data/ollama.log
+data/demo.log

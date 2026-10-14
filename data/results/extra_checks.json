@@ -1,0 +1,63 @@
+{
+ "bootstrap_faithscorer_sent_vs_alignscore": {
+  "diff": 0.048534628378378186,
+  "ci95": [
+   0.0008818532494189124,
+   0.09664405989072873
+  ],
+  "p_diff_le_0": 0.0225,
+  "resamples": 2000
+ },
+ "lexical_overlap_baseline": {
+  "threshold_from_dev": 0.8859829059829056,
+  "test": {
+   "auroc": 0.9005381271477331,
+   "balanced_acc": 0.812239160760903,
+   "per_condition": {
+    "cf_contradicted": 0.6610644257703081,
+    "cf_followed": 0.7423822714681441,
+    "clean": 0.7425474254742548,
+    "incomplete": 0.8935574229691877,
+    "irrelevant": 0.9883381924198251,
+    "noisy": 0.7940379403794038,
+    "supported_extra": 0.8567493112947658,
+    "unsupported_extra": 0.8254847645429363
+   }
+  },
+  "ragtruth_qa": {
+   "auroc": 0.7034079391891892,
+   "balanced_acc": 0.5728040540540541
+  }
+ },
+ "train_test_paragraph_overlap": {
+  "test_questions": 369,
+  "questions_with_gold_paragraph_in_train": 27,
+  "results_without_them": {
+   "nli": {
+    "balanced_acc": 0.7201245984050865,
+    "auroc": 0.797902769627846
+   },
+   "nli_base": {
+    "balanced_acc": 0.764627160293982,
+    "auroc": 0.8464569717326642
+   },
+   "alignscore": {
+    "balanced_acc": 0.8118855232481019,
+    "auroc": 0.8646799381279664
+   },
+   "minicheck": {
+    "balanced_acc": 0.8802561439244225,
+    "auroc": 0.9394347656978927
+   },
+   "faithscorer": {
+    "balanced_acc": 0.9593874848523682,
+    "auroc": 0.9890774052415864
+   },
+   "faithscorer_sent": {
+    "balanced_acc": 0.9604503483674282,
+    "auroc": 0.9889284582127704
+   }
+  }
+ },
+ "sentence_min_baselines": {}
+}
